@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: #393939;
+
+    & * {
+        background: none;
+        margin: 0;
+        border: 0;
+    }
+}
+
+.sect-2 {
+    width: 500px;
+    height: fit-content;
+    background: gray;
+    border: 10px solid #ff5100;
+    border-radius: 25px;
+    padding: 1rem;
+    margin: 1rem 0 0 10%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
