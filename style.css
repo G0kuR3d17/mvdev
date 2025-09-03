@@ -12,8 +12,10 @@ body {
     }
 }
 
+main { height: 100dvh; }
+
 .sect-2 {
-    width: 500px;
+    width: 500px 100px 300px;
     height: fit-content;
     background: gray;
     border: 10px solid #ff5100;
